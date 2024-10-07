@@ -1,0 +1,32 @@
+From 5ca9f5253cc8d1f6fc620f7892cdb2d3cc896a48 Mon Sep 17 00:00:00 2001
+From: Artem <adpkpicourse@gmail.com>
+Date: Mon, 7 Oct 2024 12:12:19 +0000
+Subject: [PATCH 2/2] My custom fix
+
+---
+ calculator.cpp | 8 ++++++++
+ 1 file changed, 8 insertions(+)
+
+diff --git a/calculator.cpp b/calculator.cpp
+index 8acc7db..fa35e02 100644
+--- a/calculator.cpp
++++ b/calculator.cpp
+@@ -1,7 +1,15 @@
++
++//test
++//test
++//test
++//test
++//test
++
+ #include "calculator.h"
+ 
+ int Calculator::Add (double a, double b)
+ {
++ 
+ 	return a + b + 0.5;
+ 
+ }
+-- 
+2.43.0
+
